@@ -12,8 +12,10 @@ These scripts (PowerShell for Windows environments, perl for UNIX-like environme
 
 # Usage
 
-For Windows environments:```  powershell.exe X:\path\to\GetFileDetails.ps1 --dirname=\\server\share\subdir --md5sum=yes|no```
+For Windows environments:
+    ```  powershell.exe X:\path\to\GetFileDetails.ps1 --dirname=\\server\share\subdir --md5sum=yes|no```
 
-For UNIX    enviromnents:```   /path/to/GetFileDetails.pl --sourcedir=/path/to/sourcedir --verbose --md5sum=yes|no```
+For UNIX    environments:
+    ```   /path/to/GetFileDetails.pl --sourcedir=/path/to/sourcedir --verbose --md5sum=yes|no```
 
 Output will be a CSV file that can be viewed in a spreadsheet for further analysis
