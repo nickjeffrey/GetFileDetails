@@ -11,7 +11,9 @@ These scripts (PowerShell for Windows environments, perl for UNIX-like environme
 - MD5 checksum
 
 # Usage
+
 For Windows environments:```  powershell.exe X:\path\to\GetFileDetails.ps1 --dirname=\\server\share\subdir --md5sum=yes|no```
+
 For UNIX    enviromnents:```   /path/to/GetFileDetails.pl --sourcedir=/path/to/sourcedir --verbose --md5sum=yes|no```
 
 Output will be a CSV file that can be viewed in a spreadsheet for further analysis
