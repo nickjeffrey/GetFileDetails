@@ -14,11 +14,11 @@ These scripts (PowerShell for Windows environments, perl for UNIX-like environme
 
 For Windows environments:
 
-    PS> X:\path\to\GetFileDetails.ps1 --dirname=\\server\share\subdir --md5sum=yes|no
+    PS> X:\path\to\GetFileDetails.ps1 -dirname "\\server\share\subdir" -md5sum yes|no
 
 For UNIX    environments:
 
-    /path/to/GetFileDetails.pl --sourcedir=/path/to/sourcedir --verbose --md5sum=yes|no
+    /path/to/GetFileDetails.pl --sourcedir=/path/to/sourcedir --md5sum=yes|no --verbose 
 
 Output will be a CSV file that can be viewed in a spreadsheet for further analysis
 
