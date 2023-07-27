@@ -31,3 +31,14 @@ Output will be a CSV file that can be viewed in a spreadsheet for further analys
 |/my/path/subdir1/x.txt|1077|1671329998|18|1688369516|1|1671329998|1|42a30bd0677998d72bd6ce967f182cfe|
 |/my/path/subdir2/y.txt|3073|1671330178|4|1688369516|1|1671330178|2|31023e7a5348e02625e92b3997eb803c|
 
+
+# Further Analysis with jupyter notebook
+
+Once you have generated the CSV-formatted list of filenames from your CIFS or NFS server, you can further analyze the data from a jupyter notebook.
+
+HINT: we use a jupyter notebook because the number of files on a big fileserver may be in the tens of millions, and spreadsheets like Microsoft Excel choke on anything bigger than a million or so lines, so we attack this as a data science problem to generate graphs similar to the following:
+
+<img src=images/graph1.png>
+<img src=images/graph2.png>
+<img src=images/graph3.png>
+<img src=images/graph4.png>
