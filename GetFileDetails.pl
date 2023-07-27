@@ -169,7 +169,7 @@ sub get_file_details {
    # Create the output file
    open (OUT,">>${sourcedir_filenames}.details") or die "Cannot open $sourcedir_filenames.details for appending $! \n";
    # The output file will be in CSV format, so put column headings in as the first line of the file\.
-   print OUT "filename,bytes,CreationTimeEpoch,CreationTimeDays,AccessTimeEpoch,AccessTimeDays,ModificationTimeEpoch,ModificationTimeDays,md5sum\n";
+   print OUT "Filename,Bytes,CreationTimeEpoch,CreationTimeDays,AccessTimeEpoch,AccessTimeDays,ModificationTimeEpoch,ModificationTimeDays,MD5sum\n";
    #
    #
    # Open the text file containing a list of all the filenames from the $sourcedir
