@@ -66,7 +66,7 @@ if (Test-Path -PathType Container -Path "$dirname") {	#surround with quotes in c
 #
 #output the CSV column headers
 #
-Write-Output "Filename,Bytes,CreationTimeDays,AccessTimeDays,DaysSinceModification,MD5sum"
+Write-Output "Filename,Bytes,CreationTimeEpoch,CreationTimeDays,AccessTimeEpoch,AccessTimeDays,ModificationTimeEpoch,ModificationTimeDays,MD5sum"
 
 
 #
